@@ -28,4 +28,4 @@ Route::get('/find-product/{id}',[ProductController::class,'show']);
 Route::put('/update-product/{id}',[ProductController::class,'update']);
 
 
-Route::delete('/delete-product/{id}',[ProductController::class,'deete']);
+Route::delete('/delete-product/{id}',[ProductController::class,'destroy']);
